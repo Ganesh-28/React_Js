@@ -1,2 +1,45 @@
 Welcome to react class
 day-1
+
+
+
+
+
+
+
+
+17-09-2026
+----------
+
+Reconciliation process in React JS:
+-----------------------------------
+
+- The reconciliation process in the React JS is the mechanism by which react determines what changes need to be made to the real DOM in response to updates in the virtual DOM.
+
+- It involves comparing the current virtual DOM representation of a component with its previous representation to identify the differences and efficiently update the Real DOM.
+
+
+Here's a step-by-step overview of the reconciliation process in React:
+----------------------------------------------------------------------
+Component render:
+-----------------
+- When a component's state or props change, React re-renders the component and its children to generate a new virtual DOM representation.
+
+Diffing Algorithm:
+------------------
+- React performs a "diffing" or comparison process between the new virtual DOM tree and the previous virtual DOM tree for the component.
+- It recursively traverses the component tree and compares each node (element) in the tree with it's counterpart in the previous tree.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
