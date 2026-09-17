@@ -30,16 +30,29 @@ Diffing Algorithm:
 - React performs a "diffing" or comparison process between the new virtual DOM tree and the previous virtual DOM tree for the component.
 - It recursively traverses the component tree and compares each node (element) in the tree with it's counterpart in the previous tree.
 
+Identifying Changes:
+--------------------
+react identifies three types of changes:
+- added nodes
+- removed nodes
+- updated nodes
+
+Applying changes:
+-----------------
+- react efficiently applies the identified changes to the Real DOM, updating only the affected parts without re-rendering the entire DOM tree.
+- This process involves adding, removing, or updating DOM elements and attributes as necessary to reflect the changes in the UI.
+
+
+By performing this reconciliation process, react ensures that the UI remains in sync with the application state while minimizing unnecessary updates to the real DOM, leading to better performance and a smoother user experience.
 
 
 
 
 
-
-
-
-
-
-
-
-
+Difference between Real DOM and Virtual DOM:
+----------------------------------------------
+real DOM	virtual DOM
+represents the actual structure of a web page	A lightweight, in-memory representation
+	
+	
+	
