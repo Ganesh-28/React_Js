@@ -188,3 +188,136 @@ React JS is known to be a great performer
 
 This feature makes it much better than other frameworks out there today. The reason behind this is that it manages a virtual DOM.
 
+
+
+
+
+18-9-2026
+
+\---------
+
+
+
+Why react is used to create UI when we can create UI using HTML and JS?
+
+\-----------------------------------------------------------------------
+
+HTML:
+
+\----
+
+UI -> HTML -> Pre defined element
+
+
+
+Using HTML creating UI is very easy
+
+To create UI html is providing some HTML elements and tags.
+
+
+
+Drawbacks:
+
+\----------
+
+we can't reuse the UI.
+
+time consuming to create UI.
+
+
+
+Java Script:
+
+\------------
+
+UI -> JS -> pre defined function -> DOM element -> DOM -> Screen
+
+
+
+JS we can create UI dynamically.
+
+we can reuse UI.
+
+
+
+Drawbacks:
+
+\----------
+
+Creating UI is very Complex process.
+
+Time consuming
+
+
+
+
+
+React JS:
+
+\---------
+
+UI -> React -> predefined function -> React element -> DOM -> Screen
+
+
+
+
+
+
+
+|HTML|JS|React|
+|-|-|-|
+|Creating the UI is easy|We can reuse the UI|Creating UI is very easy like HTML|
+|We cannot reuse the UI|Creating the UI is complex process|We can reuse the UI like JS|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Creating a React Project:
+
+\----------------------------
+
+create one folder and open it in VS Code
+
+
+
+
+
+commands:
+
+\---------
+
+
+
+* npm create vite@latest
+* Ok to proceed? (y) y
+* ◇  Project name:
+* │  firstproject
+* ◇  Select a framework:
+* │  React
+* ◇  Select a variant:
+* │  JavaScript + React Compiler
+* ◇  Which linter to use?
+* │  ESLint
+* │
+* ◇  Install with npm and start now?      ## for automatic server running, choose 'no' for manual server start
+* │  Yes
+
+
+
+
+
+
+
+Ctrl+c for stopping the server.
+

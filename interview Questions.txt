@@ -1,0 +1,22 @@
+interview Questions:
+--------- ------------
+
+1. what is react JS?
+2. what are the prerequisites for react JS?
+3. Why react JS?
+4. what is single page application?
+5. why react is called as single page application?
+6. what is the purpose of react JS?
+7. can we build entire frontend application with react JS?
+8. what kind of applications we can build using react JS?
+9. what are the uses of react JS?
+10. Advantages and disadvantages of react JS?
+11. difference between react JS and Angular JS?
+12. difference between react native and react JS?
+13. explain the working of react application?
+14. what is virtual DOM, explain the working of virtual DOM?
+15 what is Reconciliation and explain the mechanism?
+16. what is react fibre
+17. difference between real DOM and virtual DOM?
+18. what are the features of React, explain in detail?
+19. write the steps to create a react application in detail?
